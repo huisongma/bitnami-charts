@@ -15,10 +15,10 @@ apiVersion: v2
 appVersion: 7.0.7
 dependencies:
 - name: common
-  repository: oci://registry-1.docker.io/bitnamicharts
+  repository: 'file://../common'
   tags:
   - bitnami-common
-  version: 2.x.x
+  version: 2.19.1
 description: MongoDB(R) is an open source NoSQL database that uses JSON for data storage. MongoDB(TM) Sharded improves scalability and reliability for large datasets by distributing data across multiple machines.
 home: https://bitnami.com
 icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
